@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.catalogue.pages.DriverSetup;
 import com.catalogue.pages.LoginPage;
 
-public class VerifyLogin extends DriverSetup{
+public class TCVerifyLogin extends DriverSetup{
 	
 	@Test
 	public void verifiedLogin() {

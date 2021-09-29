@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 import com.catalogue.pages.CategoriesPage;
 import com.catalogue.pages.DriverSetup;
 
-public class AddCategoryWithOutProducts extends DriverSetup {
+public class TCAddCategoryWithOutProducts extends DriverSetup {
 	
 	@Test
 	public void addCategory() throws InterruptedException {
-		VerifyLogin logIn = new VerifyLogin();
+		TCVerifyLogin logIn = new TCVerifyLogin();
 		logIn.verifiedLogin();
 		
 		CategoriesPage category = PageFactory.initElements(driver, CategoriesPage.class);
