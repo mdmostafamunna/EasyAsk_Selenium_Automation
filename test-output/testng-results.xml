@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-29T17:40:22 BDT" name="Default suite" finished-at="2021-09-29T17:40:43 BDT" duration-ms="20928">
+    <groups>
+    </groups>
+    <test started-at="2021-09-29T17:40:22 BDT" name="Default test" finished-at="2021-09-29T17:40:43 BDT" duration-ms="20928">
+      <class name="com.testCase.catalogue.AddCategoryWithOutProducts">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:com.testCase.catalogue.AddCategoryWithOutProducts@7e5afaa6]" started-at="2021-09-29T17:40:17 BDT" name="setDriver" finished-at="2021-09-29T17:40:22 BDT" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="addCategory()[pri:0, instance:com.testCase.catalogue.AddCategoryWithOutProducts@7e5afaa6]" started-at="2021-09-29T17:40:22 BDT" name="addCategory" finished-at="2021-09-29T17:40:43 BDT" duration-ms="20906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testCase.catalogue.AddCategoryWithOutProducts@7e5afaa6]" started-at="2021-09-29T17:40:43 BDT" name="close" finished-at="2021-09-29T17:40:46 BDT" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testCase.catalogue.AddCategoryWithOutProducts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
